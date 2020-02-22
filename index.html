@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head><link rel="stylesheet" href="normalize.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
@@ -9,7 +9,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous">
         <!-- I can use my own fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -23,10 +24,10 @@
             </button>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class ="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#" class ="nav__link">My Service</a></li>
-                    <li class="nav__item"><a href="#" class ="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#" class ="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#home" class ="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class ="nav__link">My Service</a></li>
+                    <li class="nav__item"><a href="#about" class ="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class ="nav__link">My Work</a></li>
                 </ul>
             </nav>
         </header>
@@ -37,7 +38,7 @@
                 Hi, I am <strong> Junhan Kim </strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-            <img src="img/dev-jane-01.jpg" alt="a picture of Janme Smith smiling">
+            <img src="img/dev-jane-01.jpg" alt="a picture of Janme Smith smiling" class="intro__img">
         </section>
         
         <!-- My Services-->
@@ -47,30 +48,26 @@
 
                 <!-- Service1 -->
                 <div class="service">
-                    <h3>
-                    </h3>
-                    <p></p>
+                    <h3>Development</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl tincidunt eget nullam non. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Volutpat odio facilisis mauris sit amet massa. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Mi eget mauris pharetra et. Non tellus orci ac auctor augue. Elit at imperdiet dui accumsan sit.
+                    </p>
                 </div>
 
                 <!-- Service2 -->
                 <div class="service">
-                    <h3>
-                    </h3>
-                    <p></p>
+                    <h3>Amazon Web Services</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl tincidunt eget nullam non. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Volutpat odio facilisis mauris sit amet massa. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Mi eget mauris pharetra et. Non tellus orci ac auctor augue. Elit at imperdiet dui accumsan sit.                        
+                    </p>
                 </div>
 
                 <!-- Service3 -->
                 <div class="service">
-                    <h3>
-                    </h3>
-                    <p></p>
-                </div>
-                
-                <!-- Service4 -->
-                <div class="service">
-                    <h3>
-                    </h3>
-                    <p></p>
+                    <h3>WordPress</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl tincidunt eget nullam non. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Volutpat odio facilisis mauris sit amet massa. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Mi eget mauris pharetra et. Non tellus orci ac auctor augue. Elit at imperdiet dui accumsan sit.
+                    </p>
                 </div>
             </div>
 
@@ -85,6 +82,8 @@
             <div class="about-me__body">
                 <p></p>
             </div>
+
+            <img src="img/dev-jane-02.jpg" alt="Junhan" class="about-me__img">
         </section>
 
         
